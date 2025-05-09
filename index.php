@@ -28,7 +28,7 @@ session_start();
                 <div class="flex items-center justify-center overflow-hidden">
                     <input type="text" name="" placeholder="Cerca canzone o artista..." id="motore_ricerca"
                         autocomplete="off" class="w-96 h-14 px-6 py-4 text-lg text-center rounded-full 
-                        bg-transparent text-white placeholder-gray-300 focus:outline-none   typing-text z-20 animate-fade-in-scale">                     
+                        bg-transparent text-white placeholder-gray-300 focus:outline-none   typing-text z-20 animate-fade-in-scale">
                 </div>
             </div>
         </div>
@@ -396,7 +396,7 @@ session_start();
             const homeBottom = home.offsetHeight; // Altezza totale della sezione home
 
             // verifica se l'utente ha scrollato oltre la barra di ricerca (con un margine di 100px)
-            if (scrollPosition >= motoreRicercaTop - 100) { 
+            if (scrollPosition >= motoreRicercaTop - 100) {
                 // Mostra la navbar
                 nav.classList.remove('-translate-y-full', 'hidden');
                 nav.classList.add('translate-y-0');
@@ -458,10 +458,22 @@ session_start();
                     <p class="text-black font-semibold">${result.title}</p>
                     <p class="text-black/80 text-sm">${result.artist} • ${result.year}</p>
                 </div>
+                <button class="youtube-btn p-2 rounded-full hover:bg-purple-600/20">
+                    <img src="assets/youtube.svg" alt="youtube" class="w-5 h-5">
+                </button>
             </div>
         `;
-                item.addEventListener('click', () => {
+
+                //Click event per il titolo della canzone/ dettagli
+                item.querySelector('.flex-1').addEventListener('click', () => {
                     window.location.href = `song.php?id=${result.id}`;
+                });
+
+                // Click event per YouTube button
+                item.querySelector('.youtube-btn').addEventListener('click', (e) => {
+                    e.stopPropagation(); // impedisce di attivare l'evento di click del genitore
+                    const searchQuery = `${result.title} ${result.artist} sanremo`;
+                    window.open(`https://www.youtube.com/results?search_query=${encodeURIComponent(searchQuery)}`, '_blank');
                 });
             } else if (result.type === 'artist') {
                 item.innerHTML = `
@@ -470,18 +482,30 @@ session_start();
                     <p class="text-black font-semibold">${result.name}</p>
                     <p class="text-black/80 text-sm">Canzoni: ${result.songs.join(', ') || 'N/A'}</p>
                 </div>
+                <button class="youtube-btn p-2 rounded-full hover:bg-purple-600/20">
+                    <img src="assets/youtube.svg" alt="youtube" class="w-5 h-5">
+                </button>
                 <span class="text-purple-400 text-sm">Artista</span>
             </div>
         `;
-                item.addEventListener('click', () => {
+
+                // Click event for the artist name/details
+                item.querySelector('.flex-1').addEventListener('click', () => {
                     window.location.href = `artist.php?id=${result.id}`;
+                });
+
+                // Click event for YouTube button
+                item.querySelector('.youtube-btn').addEventListener('click', (e) => {
+                    e.stopPropagation(); // Prevent triggering the parent click event
+                    const searchQuery = `${result.name} sanremo`;
+                    window.open(`https://www.youtube.com/results?search_query=${encodeURIComponent(searchQuery)}`, '_blank');
                 });
             }
 
             return item;
         }
 
-        
+
         // Funzione per effettuare la richiesta di ricerca
         async function fetchSearchResults(query) {
             try {
@@ -553,4 +577,3 @@ session_start();
 </body>
 
 </html>
-
