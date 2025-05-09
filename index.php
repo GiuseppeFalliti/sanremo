@@ -59,7 +59,7 @@ session_start();
                     <div class="bg-white/10 backdrop-blur-sm rounded-xl border-2 border-white/20 p-4 w-[300px] h-[450px]">
                         <div class="overflow-hidden rounded-lg">
                             <img src="assets/songs/Balorda nostalgia.jpg"
-                                class="w-full h-54 object-cover rounded-lg transform group-hover:scale-110 transition duration-500">
+                                class="w-full h-54 object-cover rounded-lg transform  transition duration-500">
                         </div>
 
                         <h3 class="text-white font-bold text-xl mt-4 text-center">Balorda nostalgia</h3>
@@ -79,13 +79,12 @@ session_start();
                 </div>
 
 
-
                 <!-- Card 2 -->
                 <div class="group transform transition duration-500 hover:scale-105">
                     <div class="bg-white/10 backdrop-blur-sm rounded-xl border-2 border-white/20 p-4 w-[300px] h-[450px]">
                         <div class="overflow-hidden rounded-lg">
                             <img src="assets/songs/la noia.jpg"
-                                class="w-full h-54 object-cover rounded-lg transform group-hover:scale-110 transition duration-500">
+                                class="w-full h-54 object-cover rounded-lg transform  transition duration-500">
                         </div>
 
                         <h3 class="text-white font-bold text-xl mt-4 text-center">La noia</h3>
@@ -106,7 +105,7 @@ session_start();
                     <div class="bg-white/10 backdrop-blur-sm rounded-xl border-2 border-white/20 p-4 w-[300px] h-[450px]">
                         <div class="overflow-hidden rounded-lg">
                             <img src="assets/songs/Due vite.jpg"
-                                class="w-full h-54 object-cover rounded-lg transform group-hover:scale-110 transition duration-500">
+                                class="w-full h-54 object-cover rounded-lg transform  transition duration-500">
                         </div>
                         <h3 class="text-white font-bold text-xl mt-4 text-center">Due vite</h3>
                         <p class="text-white/80 text-sm text-center mt-2">Marco Mengoni</p>
@@ -126,7 +125,7 @@ session_start();
                     <div class="bg-white/10 backdrop-blur-sm rounded-xl border-2 border-white/20 p-4 w-[300px] h-[450px]">
                         <div class="overflow-hidden rounded-lg">
                             <img src="assets/songs/Brividi.jpg"
-                                class="w-full h-54 object-cover rounded-lg transform group-hover:scale-110 transition duration-500">
+                                class="w-full h-54 object-cover rounded-lg transform  transition duration-500">
                         </div>
                         <h3 class="text-white font-bold text-xl mt-4 text-center">Brividi</h3>
                         <p class="text-white/80 text-sm text-center mt-2">Mahmood e Blanco</p>
@@ -146,7 +145,7 @@ session_start();
                     <div class="bg-white/10 backdrop-blur-sm rounded-xl border-2 border-white/20 p-4 w-[300px] h-[450px]">
                         <div class="overflow-hidden rounded-lg">
                             <img src="assets/songs/Zitti e buoni.jpg"
-                                class="w-full h-54 object-cover rounded-lg transform group-hover:scale-110 transition duration-500">
+                                class="w-full h-54 object-cover rounded-lg transform  transition duration-500">
                         </div>
                         <h3 class="text-white font-bold text-xl mt-4 text-center">Zitti e buoni</h3>
                         <p class="text-white/80 text-sm text-center mt-2">Måneskin</p>
@@ -166,7 +165,7 @@ session_start();
                     <div class="bg-white/10 backdrop-blur-sm rounded-xl border-2 border-white/20 p-4 w-[300px] h-[450px]">
                         <div class="overflow-hidden rounded-lg">
                             <img src="assets/songs/Fai rumore.jpg"
-                                class="w-full h-54 object-cover rounded-lg transform group-hover:scale-110 transition duration-500">
+                                class="w-full h-54 object-cover rounded-lg transform  transition duration-500">
                         </div>
                         <h3 class="text-white font-bold text-xl mt-4 text-center">Fai rumore</h3>
                         <p class="text-white/80 text-sm text-center mt-2">Diodato</p>
@@ -186,7 +185,7 @@ session_start();
                     <div class="bg-white/10 backdrop-blur-sm rounded-xl border-2 border-white/20 p-4 w-[300px] h-[450px]">
                         <div class="overflow-hidden rounded-lg">
                             <img src="assets/songs/Soldi.jpg"
-                                class="w-full h-54 object-cover rounded-lg transform group-hover:scale-110 transition duration-500">
+                                class="w-full h-54 object-cover rounded-lg transform  transition duration-500">
                         </div>
                         <h3 class="text-white font-bold text-xl mt-4 text-center">Soldi</h3>
                         <p class="text-white/80 text-sm text-center mt-2">Mahmood</p>
@@ -206,7 +205,7 @@ session_start();
                     <div class="bg-white/10 backdrop-blur-sm rounded-xl border-2 border-white/20 p-4 w-[300px] h-[450px]">
                         <div class="overflow-hidden rounded-lg">
                             <img src="assets/songs/Non mi avete fatto niente.jpg"
-                                class="w-full h-54 object-cover rounded-lg transform group-hover:scale-110 transition duration-500">
+                                class="w-full h-54 object-cover rounded-lg transform  transition duration-500">
                         </div>
                         <h3 class="text-white font-bold text-xl mt-4 text-center">Non mi avete fatto niente</h3>
                         <p class="text-white/80 text-sm text-center mt-2">Ermal Meta e Fabrizio Moro</p>
@@ -226,7 +225,7 @@ session_start();
                     <div class="bg-white/10 backdrop-blur-sm rounded-xl border-2 border-white/20 p-4 w-[300px] h-[450px]">
                         <div class="overflow-hidden rounded-lg">
                             <img src="assets/songs/Occidentali's Karma.jpg"
-                                class="w-full h-54 object-cover rounded-lg transform group-hover:scale-110 transition duration-500">
+                                class="w-full h-54 object-cover rounded-lg transform  transition duration-500">
                         </div>
                         <h3 class="text-white font-bold text-xl mt-4 text-center">Occidentali's Karma</h3>
                         <p class="text-white/80 text-sm text-center mt-2">Francesco Gabbani</p>
@@ -247,7 +246,7 @@ session_start();
                     <div class="bg-white/10 backdrop-blur-sm rounded-xl border-2 border-white/20 p-4 w-[300px] h-[450px]">
                         <div class="overflow-hidden rounded-lg">
                             <img src="assets/songs/Un giorno mi dirai.jpg"
-                                class="w-full h-54 object-cover rounded-lg transform group-hover:scale-110 transition duration-500">
+                                class="w-full h-54 object-cover rounded-lg transform  transition duration-500">
                         </div>
                         <h3 class="text-white font-bold text-xl mt-4 text-center">Un giorno mi dirai</h3>
                         <p class="text-white/80 text-sm text-center mt-2">Stadio</p>
@@ -268,7 +267,7 @@ session_start();
                     <div class="bg-white/10 backdrop-blur-sm rounded-xl border-2 border-white/20 p-4 w-[300px] h-[450px]">
                         <div class="overflow-hidden rounded-lg">
                             <img src="assets/songs/Grande amore.jpg"
-                                class="w-full h-54 object-cover rounded-lg transform group-hover:scale-110 transition duration-500">
+                                class="w-full h-54 object-cover rounded-lg transform  transition duration-500">
                         </div>
                         <h3 class="text-white font-bold text-xl mt-4 text-center">Grande amore</h3>
                         <p class="text-white/80 text-sm text-center mt-2">Il volo</p>
@@ -288,7 +287,7 @@ session_start();
                     <div class="bg-white/10 backdrop-blur-sm rounded-xl border-2 border-white/20 p-4 w-[300px] h-[450px]">
                         <div class="overflow-hidden rounded-lg">
                             <img src="assets/songs/Controvento.jpg"
-                                class="w-full h-54 object-cover rounded-lg transform group-hover:scale-110 transition duration-500">
+                                class="w-full h-54 object-cover rounded-lg transform  transition duration-500">
                         </div>
                         <h3 class="text-white font-bold text-xl mt-4 text-center">Controvento</h3>
                         <p class="text-white/80 text-sm text-center mt-2">Arisa</p>
@@ -572,6 +571,102 @@ session_start();
             }
         });
     </script>
+
+
+    <!-- About-->
+     <!-- Sezione About -->
+<div id="about" style="background-image: url('assets/Structure/about.jpg');" 
+     class="bg-cover bg-center bg-no-repeat min-h-screen w-full relative py-24">
+    
+    <!-- Sovrapposizioni gradienti -->
+    <div class="absolute inset-0 bg-gradient-to-b from-purple-900/80 to-blue-900/80"></div>
+    <div class="absolute inset-0 bg-gradient-to-t from-[#000035]/90 via-transparent to-transparent"></div>
+
+    <div class="container mx-auto px-4 relative z-10">
+        <!-- Titolo sezione -->
+        <div class="text-center mb-16 animate-fade-in-scale">
+            <h2 class="text-5xl font-bold text-white mb-4">About Festival</h2>
+            <div class="w-24 h-1 bg-purple-500 mx-auto rounded-full"></div>
+        </div>
+
+        <!-- Grid contenuti -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <!-- Storia -->
+            <div class="bg-white/10 backdrop-blur-sm rounded-2xl border-2 border-white/20 p-8">
+                <div class="flex items-center mb-6">
+                    <div class="bg-purple-800/80 p-3 rounded-xl mr-4">
+                        
+                    </div>
+                    <h3 class="text-2xl font-bold text-white">La Nostra Storia</h3>
+                </div>
+                <p class="text-white/80 leading-relaxed">
+                    Il Festival di Sanremo, nato nel 1951, è il più prestigioso appuntamento 
+                    con la musica italiana. Un palcoscenico che ha lanciato leggende della 
+                    musica e creato momenti indimenticabili nella cultura popolare.
+                </p>
+            </div>
+
+            <!-- Competizione -->
+            <div class="bg-white/10 backdrop-blur-sm rounded-2xl border-2 border-white/20 p-8">
+                <div class="flex items-center mb-6">
+                    <div class="bg-purple-800/80 p-3 rounded-xl mr-4">
+                        
+                    </div>
+                    <h3 class="text-2xl font-bold text-white">La Competizione</h3>
+                </div>
+                <p class="text-white/80 leading-relaxed">
+                    24 artisti emergenti e affermati si sfidano in 5 serate ricche di musica ed emozioni. 
+                    La vittoria viene decisa da una giuria mista di esperti e pubblico da casa.
+                </p>
+            </div>
+
+            <!-- Dati salienti -->
+            <div class="lg:col-span-2 bg-white/10 backdrop-blur-sm rounded-2xl border-2 border-white/20 p-8">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                    <div class="p-4">
+                        <div class="text-4xl font-bold text-purple-400 mb-2">73+</div>
+                        <div class="text-sm text-white/80">Edizioni</div>
+                    </div>
+                    <div class="p-4">
+                        <div class="text-4xl font-bold text-purple-400 mb-2">5000+</div>
+                        <div class="text-sm text-white/80">Canzoni</div>
+                    </div>
+                    <div class="p-4">
+                        <div class="text-4xl font-bold text-purple-400 mb-2">15M+</div>
+                        <div class="text-sm text-white/80">Spettatori</div>
+                    </div>
+                    <div class="p-4">
+                        <div class="text-4xl font-bold text-purple-400 mb-2">80+</div>
+                        <div class="text-sm text-white/80">Vincitori</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Citazione -->
+            <div class="lg:col-span-2 text-center mt-12">
+                <blockquote class="text-xl italic text-white/90 max-w-2xl mx-auto">
+                    "Sanremo non è solo un festival, è un'emozione che unisce generazioni. 
+                    Qui la musica diventa storia."
+                    <footer class="mt-4 text-purple-300">- Amadeus</footer>
+                </blockquote>
+            </div>
+        </div>
+
+        <!-- Pulsante Scopri di più -->
+        <div class="text-center mt-16">
+            <a href="https://it.wikipedia.org/wiki/Festival_di_Sanremo#Storia" target="_blank" class="inline-block px-8 py-3 rounded-full bg-purple-600/80 hover:bg-purple-600 
+               text-white font-semibold transition-all duration-300 transform hover:scale-105 
+               backdrop-blur-sm border-2 border-white/20">
+                Scopri la Storia Completa
+            </a>
+        </div>
+    </div>
+
+    <!-- Effetto particelle -->
+    <div class="absolute inset-0 opacity-30 animate-particles">
+        <!-- Aggiungere qui eventuali effetti grafici con CSS/JS -->
+    </div>
+</div>
 
 
 </body>
