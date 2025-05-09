@@ -38,7 +38,46 @@ session_start();
             <img src="assets/Structure/logo.png" alt="logo"
                 class="w-[900px] h-[500px] animate-fade-in-scale">
         </div>
+        <!-- Effetto particelle -->
+    <div class="absolute inset-0 opacity-30 animate-particles">
+        <!-- Aggiungere qui eventuali effetti grafici con CSS/JS -->
     </div>
+    <!-- Effetto di animazione -->
+    <style>
+        @keyframes fade-in-scale {
+            0% {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .animate-fade-in-scale {
+            animation: fade-in-scale 0.5s ease-out forwards;
+        }
+        @keyframes particles {
+            0% {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        .animate-particles {
+            animation: particles 0.5s ease-out forwards;
+        }
+    </style>
+
+        
+    </div>
+
 
 
 
@@ -573,7 +612,7 @@ session_start();
     </script>
 
 
-    <!-- About-->
+    
      <!-- Sezione About -->
 <div id="about" style="background-image: url('assets/Structure/about.jpg');" 
      class="bg-cover bg-center bg-no-repeat min-h-screen w-full relative py-24">
