@@ -12,38 +12,8 @@ session_start();
     <link rel="stylesheet" href="/styles/style.css">
 
 </head>
-
-<body>
-    <!--sezione Home-->
-    <div id="home" style="background-image: url('assets/Structure/home.jpg');"
-        class="bg-cover bg-center bg-no-repeat h-screen w-full relative">
-        <div class="absolute inset-0 bg-red-600/70"></div>
-        <div class="absolute inset-0 bg-gradient-to-b from-blue-600/80 to-transparent"></div>
-        <div class="absolute inset-0 bg-gradient-to-t from-purple-600/100 to-transparent "></div>
-
-
-        <!--Barra di ricerca-->
-        <div class="relative z-10 pt-20">
-            <div class="flex items-center justify-center">
-                <div class="flex items-center justify-center overflow-hidden">
-                    <input type="text" name="" placeholder="Cerca canzone o artista..." id="motore_ricerca"
-                        autocomplete="off" class="w-96 h-14 px-6 py-4 text-lg text-center rounded-full 
-                        bg-transparent text-white placeholder-gray-300 focus:outline-none   typing-text z-20 animate-fade-in-scale">
-                </div>
-            </div>
-        </div>
-
-        <!--Logo/titolo-->
-        <div class="absolute inset-0 flex items-center justify-center z-index-100">
-            <img src="assets/Structure/logo.png" alt="logo"
-                class="w-[900px] h-[500px] animate-fade-in-scale">
-        </div>
-        <!-- Effetto particelle -->
-    <div class="absolute inset-0 opacity-30 animate-particles">
-        <!-- Aggiungere qui eventuali effetti grafici con CSS/JS -->
-    </div>
-    <!-- Effetto di animazione -->
     <style>
+        /* Effetto di animazione */
         @keyframes fade-in-scale {
             0% {
                 opacity: 0;
@@ -74,6 +44,37 @@ session_start();
             animation: particles 0.5s ease-out forwards;
         }
     </style>
+
+<body>
+    <!--sezione Home-->
+    <div id="home" style="background-image: url('assets/Structure/home.jpg');"
+        class="bg-cover bg-center bg-no-repeat h-screen w-full relative">
+        <div class="absolute inset-0 bg-red-600/70"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-blue-600/80 to-transparent"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-purple-600/100 to-transparent "></div>
+
+
+        <!--Barra di ricerca-->
+        <div class="relative z-10 pt-20">
+            <div class="flex items-center justify-center">
+                <div class="flex items-center justify-center overflow-hidden">
+                    <input type="text" name="" placeholder="Cerca canzone o artista..." id="motore_ricerca"
+                        autocomplete="off" class="w-96 h-14 px-6 py-4 text-lg text-center rounded-full 
+                        bg-transparent text-white placeholder-gray-300 focus:outline-none  typing-text z-20 animate-fade-in-scale">
+                </div>
+            </div>
+        </div>
+
+        <!--Logo/titolo-->
+        <div class="absolute inset-0 flex items-center justify-center z-index-100">
+            <img src="assets/Structure/logo.png" alt="logo"
+                class="w-[900px] h-[500px] animate-fade-in-scale">
+        </div>
+        <!-- Effetto particelle -->
+    <div class="absolute inset-0 opacity-30 animate-particles">
+        <!-- Aggiungere qui eventuali effetti grafici con CSS/JS -->
+    </div>
+    
 
         
     </div>
