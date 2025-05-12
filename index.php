@@ -56,7 +56,7 @@ session_start();
 
         <!--Barra di ricerca-->
         <div class="relative z-10 pt-20">
-            <div class="flex items-center justify-center">
+            <div class="flex flex-col items-center justify-center">
                 <div class="flex items-center justify-center overflow-hidden">
                     <input type="text" name="" placeholder="Cerca canzone o artista..." id="motore_ricerca"
                         autocomplete="off" class="w-96 h-14 px-6 py-4 text-lg text-center rounded-full 
@@ -70,11 +70,6 @@ session_start();
             <img src="assets/Structure/logo.png" alt="logo"
                 class="w-[900px] h-[500px] animate-fade-in-scale">
         </div>
-        <!-- Effetto particelle -->
-    <div class="absolute inset-0 opacity-30 animate-particles">
-        <!-- Aggiungere qui eventuali effetti grafici con CSS/JS -->
-    </div>
-    
 
         
     </div>
@@ -85,7 +80,7 @@ session_start();
 
     <!--Sezione Artisti-->
     <div id="artisti" style="background-image: url('assets/Structure/artisti.jpg');"
-        class="bg-cover bg-center bg-no-repeat min-h-screen w-full relative py-24 ">
+        class="bg-cover bg-center bg-no-repeat min-h-screen w-full relative py-32 ">
 
         <br> <br>
 
